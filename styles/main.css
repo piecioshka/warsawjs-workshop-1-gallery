@@ -3,6 +3,10 @@ body {
     color: whitesmoke;
 }
 
+.hide {
+    display: none;
+}
+
 #app {
     width: 750px;
 }
@@ -27,9 +31,51 @@ header nav ul li {
     display: inline-block;
 }
 
-main {
-    height: 200px;
+header nav ul li a img {
+    width: 200px;
+    height: 100px;
+}
 
+main {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+main .left-arrow {
+    width: 50px;
+    height: 200px;
+    background: forestgreen;
+    border: 5px solid greenyellow;
+
+    position: absolute;
+    left: 0;
+    top: calc(50% - 100px);
+}
+
+main .right-arrow {
+    width: 50px;
+    height: 200px;
+    background: darkred;
+    border: 5px solid red;
+
+    position: absolute;
+    right: 0;
+    top: calc(50% - 100px);
+}
+
+main img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 600px;
+    height: 400px;
 }
 
 footer {
