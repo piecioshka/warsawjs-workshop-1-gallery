@@ -1,3 +1,47 @@
 body {
-    background: coral;
+    background: lightcoral;
+    color: whitesmoke;
+}
+
+#app {
+    width: 750px;
+}
+
+header {
+    background: cornflowerblue;
+    padding: 50px;
+}
+
+header h1 {
+    margin: 0;
+    text-shadow: 1px 1px 1px #000;
+    font-family: 'Oswald', cursive;
+}
+
+header nav ul {
+    padding: 0;
+}
+
+header nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+main {
+    height: 200px;
+
+}
+
+footer {
+    padding: 50px;
+    text-align: center;
+    background: whitesmoke;
+}
+
+footer p {
+    font-family: 'Indie Flower', cursive;
+    color: black;
+    padding: 10px;
+    display: inline;
+    font-size: 20px;
 }
