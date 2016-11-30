@@ -1,4 +1,4 @@
-const PHOTOS_CONTAINER_SELECTOR = '.photo-album';
+const PHOTOS_CONTAINER_SELECTOR = '.gallery';
 const ZOOM_CONTAINER_SELECTOR = '.magnifier';
 
 const ESCAPE_CODE = 27;
@@ -59,7 +59,6 @@ class Magnifier {
 
         let $link = $thumb.parentNode;
         let fullSource = $link.getAttribute('href');
-
         let $image = buildImage(fullSource);
 
         this.$main.classList.remove('hide');
@@ -68,6 +67,11 @@ class Magnifier {
     }
 
     displayPrevPicture() {
+        let $prevImage = this._getPreviousImage();
+        this.zoomIn($prevImage);
+    }
+
+    _getPreviousImage() {
         let $link = this.$current.parentNode;
         let $li = $link.parentNode;
         let $prevLi = $li.previousElementSibling;
@@ -76,11 +80,15 @@ class Magnifier {
             $prevLi = $li.parentNode.lastElementChild;
         }
 
-        let $prevImage = $prevLi.querySelector('img');
-        this.zoomIn($prevImage);
+        return $prevLi.querySelector('img');
     }
 
     displayNextPicture() {
+        let $nextImage = this._getNextImage();
+        this.zoomIn($nextImage);
+    }
+
+    _getNextImage() {
         let $link = this.$current.parentNode;
         let $li = $link.parentNode;
         let $nextLi = $li.nextElementSibling;
@@ -89,8 +97,7 @@ class Magnifier {
             $nextLi = $li.parentNode.firstElementChild;
         }
 
-        let $nextImage = $nextLi.querySelector('img');
-        this.zoomIn($nextImage);
+        return $nextLi.querySelector('img');
     }
 
     zoomOut() {
@@ -128,7 +135,8 @@ class Magnifier {
 
 function bootstrap() {
     let magnifier = new Magnifier();
-    let gallery = new PhotoAlbum(magnifier);
+
+    new PhotoAlbum(magnifier);
 }
 
 window.addEventListener('DOMContentLoaded', bootstrap);

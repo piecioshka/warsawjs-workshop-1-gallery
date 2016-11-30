@@ -11,23 +11,62 @@
 * prezentacja list miniaturek oraz 1 zdjęcia powiększonego
 * zapętlenie przewijania listy zdjęć
 
+## Etapy (pomoc podczas nauczania)
+
+### Etap 1: Scaffold :file_folder:
+
+* Stworzenie plików:
+    - HTML o nazwie `index.html`
+        * wpisanie tytułu strony w znaczniku `title`
+        * wpisanie w pliku kilku słów w znaczniku `body`
+    - CSS w katalogu `styles`
+        * pokolorowanie tła i tekstu
+    - JavaScript w katalogu `scripts`
+        * wyświetlenie tekstu w narzędziach developerskich
+* Dołączenie plików CSS i JavaScript do pliku HTML.
+* Załączenie customowego fontu korzystając z http://fonts.google.com/
+* Dodanie nagłówka i stopki (HTML + CSS)
+* Wyświetlenie listy miniaturek w pozycji horyzontalnej
+
+### Etap 2: Magnifier :mag: 
+
+* .
+* .
+* .
+
+### Etap 3: GitHub :octocat: 
+
+* Założenie projektu na GitHubie
+* Stworzenie repozytorium w projekcie za pomocą GitHub Desktop
+* Wrzucenie projektu na serwer za pomocą GitHub Desktop
+* Dodanie GitHub Ribbons
+
+## Zadania dodatkowe?
+
+* Wsparcie różnych rozmiarów obrazków
+* Skalowanie zdjęcia przy zmniejszaniu okna przeglądarki
+* Responsywność (mobile)
+
 ## Czego nauczą się uczestnicy podczas realizacji tego zadania?
 
 ### HTML
 
+* dlaczego nazwa pliku `index.html` jest taka specjalna
 * definicji dokumentu HTML
 * jak załączyć plik CSS oraz JavaScript
 * jak zmienić tytuł strony
 * jak wprowadzić podział w strukturze projektu na 3 warstwy
-* znaczenia znaczników: `html, head, body, title, meta, link, script, div, header, h1, nav, ul, li, a, img, main, footer, p`
+* znaczenia znaczników: `html, head, body, title, meta, link, script, div, header, h1, ul, li, a, img, main, footer, p`
 * jak ustawić kodowanie dokumentu
 * jak ustawić typ pliku
+* jak dodać link do dokumentu HTML
 * korzystania z serwisów zewnętrznych do pobierania obrazków
 * jak dołączyć ładny font ze strony http://fonts.google.com
 * definiowania atrybutów
 * dodawania GitHub Ribbon: https://github.com/blog/273-github-ribbons
 * kolejności w definiowaniu elementów ma znaczenie
 * jak zdefiniować alternatywny tekst, gdy obrazek nie załaduje się
+* jak dodaje się komentarze w HTMLu
 
 ### CSS
 
@@ -46,11 +85,13 @@
 * dodawania obramowania do kontenerów
 * centrowanie kontenerów i tekstu
 * jak zmienić domyślny kursor myszy
+* jak dodaje się komentarze w CSS
 
 ### JavaScript
 
 * definiowanie zmiennych, funkcji, klas, stałych
 * czym jest konstruktor
+* stworzenie obiektu za pomocą operatora `new`
 * co to jest DOM
 * jak tworzy się metody
 * dowiesz się co to jest API
@@ -63,19 +104,13 @@
 * jak zarządzać klasami CSS elementów DOMa
 * metody prywatne
 * instrukcje `if` oraz `switch`
+* jak dodaje się komentarze w JavaScript
 
 ### Google Chrome Developer Tools
 
+* czym są oraz w czym pomagają
 * jak "zbadać" element
 * debugowanie za pomocą metody `console.log` oraz wyrażenia `debugger`
-
-## Zadania dodatkowe?
-
-* wsparcie różnych rozmiarów obrazków
-* skalowanie zdjęcia przy zmniejszaniu okna przeglądarki
-* responsywność (mobile)
-
----
 
 ## Kolory
 
