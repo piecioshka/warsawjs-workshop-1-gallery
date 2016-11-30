@@ -13,21 +13,27 @@ function buildImage(url) {
 
 class Gallery {
     constructor() {
-        console.log('Gallery was setup');
         this.$gallery = document.querySelector(GALLERY_SELECTOR);
     }
 
     start(displayArea) {
+        this._setupClick(displayArea);
+        this._setupShortcuts(displayArea);
+    }
+
+    _setupClick(displayArea) {
         this.$gallery.addEventListener('click', (evt) => {
             let $image = evt.target;
             displayArea.display($image);
             evt.preventDefault();
         });
+    }
 
+    _setupShortcuts(displayArea) {
         document.addEventListener('keydown', (evt) => {
             switch (evt.keyCode) {
                 case ESCAPE_CODE:
-                    displayArea.destroy();
+                    displayArea.destroyContainer();
                     break;
 
                 case LEFT_CODE:
@@ -38,13 +44,12 @@ class Gallery {
                     displayArea.displayNextPicture();
                     break;
             }
-        })
+        });
     }
 }
 
 class DisplayArea {
     constructor() {
-        console.log('DisplayArea was setup');
         this.$area = document.querySelector(DISPLAY_CONTAINER_SELECTOR);
         this.$main = this.$area.parentNode;
         this.$current = null;
@@ -54,15 +59,14 @@ class DisplayArea {
     display($thumb) {
         this.$current = $thumb;
 
-        // let thumbSource = $thumb.getAttribute('src');
         let $link = $thumb.parentNode;
         let fullSource = $link.getAttribute('href');
 
         let $image = buildImage(fullSource);
 
-        this._show();
-        this._clear();
-        this._render($image);
+        this.$main.classList.remove('hide');
+        this._clearContainer();
+        this.$area.appendChild($image);
     }
 
     displayPrevPicture() {
@@ -91,35 +95,28 @@ class DisplayArea {
         this.display($nextImage);
     }
 
-    destroy() {
-        this._hide();
-        this._clear();
+    destroyContainer() {
+        this.$main.classList.add('hide');
+        this._clearContainer();
     }
 
-    _setupArrows() {
-        console.log('_setupArrows');
-        this.$main.querySelector('.left-arrow').addEventListener('click', () => {
-            this.displayPrevPicture();
-        });
-        this.$main.querySelector('.right-arrow').addEventListener('click', () => {
-            this.displayNextPicture();
-        });
-    }
-
-    _clear() {
+    _clearContainer() {
         this.$area.innerHTML = '';
     }
 
-    _render($image) {
-        this.$area.appendChild($image);
-    }
+    _setupArrows() {
+        let $leftArrow = this.$main.querySelector('.left-arrow');
+        let $rightArrow = this.$main.querySelector('.right-arrow');
 
-    _show() {
-        this.$main.classList.remove('hide');
-    }
+        $leftArrow.addEventListener('click', (evt) => {
+            this.displayPrevPicture();
+            evt.preventDefault();
+        });
 
-    _hide() {
-        this.$main.classList.add('hide');
+        $rightArrow.addEventListener('click', (evt) => {
+            this.displayNextPicture();
+            evt.preventDefault();
+        });
     }
 }
 

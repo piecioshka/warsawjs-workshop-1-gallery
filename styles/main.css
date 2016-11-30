@@ -1,6 +1,8 @@
 body {
+    margin: 0;
     background: lightcoral;
     color: whitesmoke;
+    font-family: 'Oswald', cursive;
 }
 
 .hide {
@@ -18,8 +20,6 @@ header {
 
 header h1 {
     margin: 0;
-    text-shadow: 1px 1px 1px #000;
-    font-family: 'Oswald', cursive;
 }
 
 header nav ul {
@@ -36,6 +36,10 @@ header nav ul li a img {
     height: 100px;
 }
 
+header nav ul li a img:hover {
+    cursor: zoom-in;
+}
+
 main {
     position: absolute;
     left: 0;
@@ -45,29 +49,38 @@ main {
     background: rgba(0, 0, 0, 0.8);
 }
 
-main .left-arrow {
-    width: 50px;
+main .arrow {
+    width: 100px;
     height: 200px;
-    background: forestgreen;
-    border: 5px solid greenyellow;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 180px;
+    line-height: 180px;
 
     position: absolute;
-    left: 0;
     top: calc(50% - 100px);
+    text-decoration: none;
+
+    overflow: hidden;
+}
+
+main .left-arrow {
+    left: 10px;
+}
+
+main .left-arrow:hover {
+    color: greenyellow;
 }
 
 main .right-arrow {
-    width: 50px;
-    height: 200px;
-    background: darkred;
-    border: 5px solid red;
-
-    position: absolute;
-    right: 0;
-    top: calc(50% - 100px);
+    right: 10px;
 }
 
-main img {
+main .right-arrow:hover {
+    color: lightseagreen;
+}
+
+main .display-area {
     position: absolute;
     left: 0;
     right: 0;
@@ -76,6 +89,9 @@ main img {
     margin: auto;
     width: 600px;
     height: 400px;
+    background: white;
+    border: 2px solid white;
+    border-radius: 3px;
 }
 
 footer {
@@ -85,8 +101,7 @@ footer {
 }
 
 footer p {
-    font-family: 'Indie Flower', cursive;
-    color: black;
+    color: dimgrey;
     padding: 10px;
     display: inline;
     font-size: 20px;
