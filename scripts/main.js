@@ -14,11 +14,11 @@ function buildImage(url) {
 class PhotoAlbum {
     constructor(magnifier) {
         this.$gallery = document.querySelector(PHOTOS_CONTAINER_SELECTOR);
-        this._setupZoomIn(magnifier);
-        this._setupShortcuts(magnifier);
+        this._setupMagnifier(magnifier);
+        this._setupKeyboardShortcuts(magnifier);
     }
 
-    _setupZoomIn(magnifier) {
+    _setupMagnifier(magnifier) {
         this.$gallery.addEventListener('click', (evt) => {
             let $image = evt.target;
             magnifier.zoomIn($image);
@@ -26,7 +26,7 @@ class PhotoAlbum {
         });
     }
 
-    _setupShortcuts(magnifier) {
+    _setupKeyboardShortcuts(magnifier) {
         document.addEventListener('keydown', (evt) => {
             switch (evt.keyCode) {
                 case ESCAPE_CODE:

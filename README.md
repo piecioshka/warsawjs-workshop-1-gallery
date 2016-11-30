@@ -15,14 +15,18 @@
 
 ### Etap 1: Scaffold :file_folder:
 
-* Stworzenie plików:
+* Stworzenie katalogu na projekt np. `test-project-1`
+* Stworzenie plików w katalogu stworzonym w poprzednim punkcie:
     - HTML o nazwie `index.html`
-        * wpisanie tytułu strony w znaczniku `title`
-        * wpisanie w pliku kilku słów w znaczniku `body`
-    - CSS w katalogu `styles`
+        * określenie typu pliku
+        * zbudowanie podstawowej struktury (`<html>, <head>, <body>`)
+        * określenie kodowania dokumentu (`<html>` -> `<head>` -> `<meta>`)
+        * wpisanie tytułu strony (`<html>` -> `<head>` -> `<title>`)
+        * wpisanie w pliku kilku słów (`<html>` -> `<body>` -> `<p>`)
+    - CSS w katalogu `styles/`
         * pokolorowanie tła i tekstu
-    - JavaScript w katalogu `scripts`
-        * wyświetlenie tekstu w narzędziach developerskich
+    - JavaScript w katalogu `scripts/`
+        * wyświetlenie dowolnego tekstu w narzędziach developerskich
 * Dołączenie plików CSS i JavaScript do pliku HTML.
 * Załączenie customowego fontu korzystając z http://fonts.google.com/
 * Dodanie nagłówka i stopki (HTML + CSS)
@@ -32,6 +36,8 @@
 
 * .
 * .
+* .
+* Dodanie wsparcia skrótów klawiaturowych (LEFT, RIGHT, ESCAPE)
 * .
 
 ### Etap 3: GitHub :octocat: 
@@ -148,3 +154,8 @@ Opcje które wchodzą w grę:
 * w lewo: &#x276c; &#x276e; &#x2770;
 * w prawo: &#x276d; &#x276f; &#x2771;
 * zamknięcie: &#xD7;
+
+# Fonty
+
+* http://fontpair.co/
+* http://fonts.google.com/
