@@ -8,28 +8,31 @@
 
 * obrazki tego samego rozmiaru
 * liczba zdjęć jest nieograniczona
+* prezentacja list miniaturek oraz 1 zdjęcia powiększonego
+* zapętlenie przewijania listy zdjęć
 
 ## Czego nauczą się uczestnicy podczas realizacji tego zadania?
 
 ### HTML
 
-* definicji dokument HTML
-* jak załączyć plik CSS oraz JS
+* definicji dokumentu HTML
+* jak załączyć plik CSS oraz JavaScript
 * jak zmienić tytuł strony
 * jak wprowadzić podział w strukturze projektu na 3 warstwy
-* znaczenia znaczników: html, head, body, title, meta, link, script, div, header, h1, nav, ul, li, a, img, main, footer, p
+* znaczenia znaczników: `html, head, body, title, meta, link, script, div, header, h1, nav, ul, li, a, img, main, footer, p`
 * jak ustawić kodowanie dokumentu
 * jak ustawić typ pliku
 * korzystania z serwisów zewnętrznych do pobierania obrazków
-* jak dołączyć ładny font ze strony http://fonts.google.com (TODO: potrzebuje ładnych fontów)
+* jak dołączyć ładny font ze strony http://fonts.google.com
 * definiowania atrybutów
 * dodawania GitHub Ribbon: https://github.com/blog/273-github-ribbons
-* że kolejność w definiowaniu elementów ma znaczenie
+* kolejności w definiowaniu elementów ma znaczenie
+* jak zdefiniować alternatywny tekst, gdy obrazek nie załaduje się
 
 ### CSS
 
 * resetowanie domyślnych styli przeglądarek (`body margin`)
-* jak wybrać kolor z listy predefiniowanych w CSS (TODO: skąd je wziąć?)
+* jak wybrać kolor z listy predefiniowanych w CSS
 * jak się definiuje kolory w składni RGB oraz RGBA
 * selektorów razem z specificity
 * funkcji `calc()`
@@ -61,7 +64,7 @@
 * metody prywatne
 * instrukcje `if` oraz `switch`
 
-### Dev Tools
+### Google Chrome Developer Tools
 
 * jak "zbadać" element
 * debugowanie za pomocą metody `console.log` oraz wyrażenia `debugger`
@@ -69,6 +72,8 @@
 ## Zadania dodatkowe?
 
 * wsparcie różnych rozmiarów obrazków
+* skalowanie zdjęcia przy zmniejszaniu okna przeglądarki
+* responsywność (mobile)
 
 ---
 
@@ -107,5 +112,4 @@ Opcje które wchodzą w grę:
 
 * w lewo: &#x276c; &#x276e; &#x2770;
 * w prawo: &#x276d; &#x276f; &#x2771;
-
-Ostatnie opcje są najlepsze.
+* zamknięcie: &#xD7;

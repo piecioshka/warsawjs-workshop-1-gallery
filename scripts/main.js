@@ -1,5 +1,5 @@
-const GALLERY_SELECTOR = '.gallery';
-const DISPLAY_CONTAINER_SELECTOR = '.display-area';
+const PHOTOS_CONTAINER_SELECTOR = '.photo-album';
+const ZOOM_CONTAINER_SELECTOR = '.magnifier';
 
 const ESCAPE_CODE = 27;
 const LEFT_CODE = 37;
@@ -11,52 +11,50 @@ function buildImage(url) {
     return $image;
 }
 
-class Gallery {
-    constructor() {
-        this.$gallery = document.querySelector(GALLERY_SELECTOR);
+class PhotoAlbum {
+    constructor(magnifier) {
+        this.$gallery = document.querySelector(PHOTOS_CONTAINER_SELECTOR);
+        this._setupZoomIn(magnifier);
+        this._setupShortcuts(magnifier);
     }
 
-    start(displayArea) {
-        this._setupClick(displayArea);
-        this._setupShortcuts(displayArea);
-    }
-
-    _setupClick(displayArea) {
+    _setupZoomIn(magnifier) {
         this.$gallery.addEventListener('click', (evt) => {
             let $image = evt.target;
-            displayArea.display($image);
+            magnifier.zoomIn($image);
             evt.preventDefault();
         });
     }
 
-    _setupShortcuts(displayArea) {
+    _setupShortcuts(magnifier) {
         document.addEventListener('keydown', (evt) => {
             switch (evt.keyCode) {
                 case ESCAPE_CODE:
-                    displayArea.destroyContainer();
+                    magnifier.zoomOut();
                     break;
 
                 case LEFT_CODE:
-                    displayArea.displayPrevPicture();
+                    magnifier.displayPrevPicture();
                     break;
 
                 case RIGHT_CODE:
-                    displayArea.displayNextPicture();
+                    magnifier.displayNextPicture();
                     break;
             }
         });
     }
 }
 
-class DisplayArea {
+class Magnifier {
     constructor() {
-        this.$area = document.querySelector(DISPLAY_CONTAINER_SELECTOR);
+        this.$area = document.querySelector(ZOOM_CONTAINER_SELECTOR);
         this.$main = this.$area.parentNode;
         this.$current = null;
         this._setupArrows();
+        this._setupCloseZoom();
     }
 
-    display($thumb) {
+    zoomIn($thumb) {
         this.$current = $thumb;
 
         let $link = $thumb.parentNode;
@@ -79,7 +77,7 @@ class DisplayArea {
         }
 
         let $prevImage = $prevLi.querySelector('img');
-        this.display($prevImage);
+        this.zoomIn($prevImage);
     }
 
     displayNextPicture() {
@@ -92,16 +90,24 @@ class DisplayArea {
         }
 
         let $nextImage = $nextLi.querySelector('img');
-        this.display($nextImage);
+        this.zoomIn($nextImage);
     }
 
-    destroyContainer() {
+    zoomOut() {
         this.$main.classList.add('hide');
         this._clearContainer();
     }
 
     _clearContainer() {
         this.$area.innerHTML = '';
+    }
+
+    _setupCloseZoom() {
+        let $closeButton = this.$main.querySelector('.close-button');
+        $closeButton.addEventListener('click', (evt) => {
+            this.zoomOut();
+            evt.preventDefault();
+        });
     }
 
     _setupArrows() {
@@ -121,9 +127,8 @@ class DisplayArea {
 }
 
 function bootstrap() {
-    let displayArea = new DisplayArea();
-    let gallery = new Gallery();
-    gallery.start(displayArea);
+    let magnifier = new Magnifier();
+    let gallery = new PhotoAlbum(magnifier);
 }
 
 window.addEventListener('DOMContentLoaded', bootstrap);
