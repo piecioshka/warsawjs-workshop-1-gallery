@@ -9,7 +9,6 @@
 * obrazki tego samego rozmiaru
 * liczba zdjęć jest nieograniczona
 * prezentacja list miniaturek oraz 1 zdjęcia powiększonego
-* zapętlenie przewijania listy zdjęć
 
 ## Etapy (pomoc podczas nauczania)
 
@@ -38,7 +37,7 @@
 * .
 * .
 * Dodanie wsparcia skrótów klawiaturowych (LEFT, RIGHT, ESCAPE)
-* .
+* Zapętlenie przewijania listy zdjęć
 
 ### Etap 3: GitHub :octocat: 
 
