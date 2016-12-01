@@ -9,15 +9,12 @@ body {
     display: none;
 }
 
-#app {
-    width: 750px;
-}
-
 /* -------------------------------------------------------------------------- */
 
 header {
     background: cornflowerblue;
     padding: 50px;
+    text-align: center;
 }
 
 header h1 {

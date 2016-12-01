@@ -20,8 +20,13 @@ class PhotoAlbum {
 
     _setupMagnifier(magnifier) {
         this.$gallery.addEventListener('click', (evt) => {
-            let $image = evt.target;
-            magnifier.zoomIn($image);
+            let $clickedElement = evt.target;
+
+            if ($clickedElement.tagName.toLowerCase() !== 'img') {
+                return;
+            }
+
+            magnifier.zoomIn($clickedElement);
             evt.preventDefault();
         });
     }
