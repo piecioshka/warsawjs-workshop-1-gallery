@@ -35,9 +35,14 @@
 
 * .
 * .
+* Wyświetlenie większego zdjęcia pod listą
+* Zmiana kontenera wyświetlania na overlay
+* .
 * .
 * Dodanie wsparcia skrótów klawiaturowych (LEFT, RIGHT, ESCAPE)
 * Zapętlenie przewijania listy zdjęć
+* .
+* .
 
 ### Etap 3: GitHub :octocat: 
 
