@@ -1,0 +1,46 @@
+body {
+    background-color: #f1c40f;
+    color: whitesmoke;
+    font-family: 'Amatica SC', cursive;
+    margin: 0;
+}
+
+header {
+    background: #e67e22;
+    height: 200px;
+    padding: 0 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 100px;
+}
+
+/* -------------------------------------------------------------------------- */
+
+main {
+    padding: 0 20px;
+}
+
+main nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+main nav ul li {
+    display: inline-block;
+}
+
+/* -------------------------------------------------------------------------- */
+
+footer {
+    background: #27ae60;
+    height: 200px;
+    padding: 0 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 50px;
+    line-height: 50px;
+}

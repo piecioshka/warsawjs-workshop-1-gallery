@@ -15,21 +15,28 @@
 ### Etap 1: Scaffold :file_folder:
 
 * Stworzenie katalogu na projekt np. `test-project-1`
-* Stworzenie plików w katalogu stworzonym w poprzednim punkcie:
-    - HTML o nazwie `index.html`
+* Stworzenie w katalogu stworzonym w poprzednim punkcie plików:
+    - `index.html` - struktura dokumentu w formacie HTML
         * określenie typu pliku
         * zbudowanie podstawowej struktury (`<html>, <head>, <body>`)
         * określenie kodowania dokumentu (`<html>` -> `<head>` -> `<meta>`)
         * wpisanie tytułu strony (`<html>` -> `<head>` -> `<title>`)
         * wpisanie w pliku kilku słów (`<html>` -> `<body>` -> `<p>`)
-    - CSS w katalogu `styles/`
+        * reset domyślnego marginesu w `body`
+    - `styles/main.css` - definicja wyglądu strony w formacie CSS 
         * pokolorowanie tła i tekstu
-    - JavaScript w katalogu `scripts/`
+    - `scripts/main.js` - definicja działania aplikacji w JavaScript
         * wyświetlenie dowolnego tekstu w narzędziach developerskich
 * Dołączenie plików CSS i JavaScript do pliku HTML.
 * Załączenie customowego fontu korzystając z http://fonts.google.com/
-* Dodanie nagłówka i stopki (HTML + CSS)
-* Wyświetlenie listy miniaturek w pozycji horyzontalnej
+* Dodanie nagłówka i stopki
+    - tworząc nowe kontenery (`header` & `footer`)
+    - posiłkując się dowolną paletą kolorystyczną
+    - oddzielając w pliku CSS komentarze 3 sekcje: `header, main, footer`
+* Wyświetlenie pionowej listy miniaturek
+    - wykorzystując dowolny place holder
+    - likwidując domyślny styl listy pionowej
+* Zmiana trybu wyświetlania listy z pionowej na poziomą
 
 ### Etap 2: Magnifier :mag: 
 
@@ -143,6 +150,7 @@
     * http://baconmockup.com/
     * http://placeskull.com/
     * https://unsplash.it/
+    * https://placem.at/
 * Fake
     * https://dummyimage.com/
     * http://fakeimg.pl/
