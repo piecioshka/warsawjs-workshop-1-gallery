@@ -38,20 +38,25 @@
     - likwidując domyślny styl listy pionowej
 * Zmiana trybu wyświetlania listy z pionowej na poziomą
 
-### Etap 2: Magnifier :mag: 
+### Etap 2: Display singe zoom photo &#x1F3C3;
+
+* Stworzenie linków do zdjęć w rozdzielczości ok. 600x400
+* Stworzenie kontenera gdzie będzie wyświetlane zdjęcie w powiększeniu
+* Nasłuchiwanie na kliknięcie w zdjęcie
+* Zablokowanie domyślną akcję kliknięcia w link
+* Wyświetlenie większego zdjęcia pod listą poprzez stworzenie obiekt zdjęcia
+i dodać je do strony, pamiętając o wyrzuceniu wszystkiego co było wcześniej.
+
+### Etap 3: Magnifier :mag:
 
 * .
-* .
-* Wyświetlenie większego zdjęcia pod listą
 * Zmiana kontenera wyświetlania na overlay
-* .
 * .
 * Dodanie wsparcia skrótów klawiaturowych (LEFT, RIGHT, ESCAPE)
 * Zapętlenie przewijania listy zdjęć
 * .
-* .
 
-### Etap 3: GitHub :octocat: 
+### Etap 4: GitHub :octocat: 
 
 * Założenie projektu na GitHubie
 * Stworzenie repozytorium w projekcie za pomocą GitHub Desktop
