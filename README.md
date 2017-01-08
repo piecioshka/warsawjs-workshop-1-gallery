@@ -1,6 +1,6 @@
 # warsawjs-workshop-gallery
 
-> Aplikacja testowa na potrzeby WarsawJS Workshop #1
+> Testowa aplikacja stworzona na potrzeby WarsawJS Workshop #1
 
 ![](http://warsawjs.com/assets/images/logo/logo-transparent-240x240.png)
 
@@ -10,7 +10,7 @@
 * liczba zdjęć jest nieograniczona
 * prezentacja list miniaturek oraz 1 zdjęcia powiększonego
 
-## Etapy (pomoc podczas nauczania)
+## Etapy
 
 ### Etap 1: Scaffold :file_folder:
 
@@ -49,12 +49,9 @@ i dodać je do strony, pamiętając o wyrzuceniu wszystkiego co było wcześniej
 
 ### Etap 3: Magnifier :mag:
 
-* .
 * Zmiana kontenera wyświetlania na overlay
-* .
 * Dodanie wsparcia skrótów klawiaturowych (LEFT, RIGHT, ESCAPE)
 * Zapętlenie przewijania listy zdjęć
-* .
 
 ### Etap 4: GitHub :octocat: 
 
@@ -134,45 +131,12 @@ i dodać je do strony, pamiętając o wyrzuceniu wszystkiego co było wcześniej
 * jak "zbadać" element
 * debugowanie za pomocą metody `console.log` oraz wyrażenia `debugger`
 
-## Kolory
-
-* Lista kolorów
-    * http://colours.neilorangepeel.com/
-    * http://www.colors.commutercreative.com/grid/
-    * https://flatuicolors.com/
-    * http://clrs.cc/
-    * http://www.cssmania.com/colors/
-* Pickery
-    * http://color.adobe.com/
-    * http://paletton.com/
-    * http://htmlcolorcodes.com/
-
-## Placeholders
-
-* Obrazki
-    * https://placebear.com/
-    * http://placekitten.com/
-    * http://baconmockup.com/
-    * http://placeskull.com/
-    * https://unsplash.it/
-    * https://placem.at/
-* Fake
-    * https://dummyimage.com/
-    * http://fakeimg.pl/
-    * http://lorempixel.com/
-    * http://placehold.it/
-
 ## Znaki specjalne
 
 http://character-code.com/arrows-html-codes.php
 
-Opcje które wchodzą w grę:
+Opcje które wchodzą w grę jako strzałki (ikonki):
 
 * w lewo: &#x276c; &#x276e; &#x2770;
 * w prawo: &#x276d; &#x276f; &#x2771;
 * zamknięcie: &#xD7;
-
-# Fonty
-
-* http://fontpair.co/
-* http://fonts.google.com/
