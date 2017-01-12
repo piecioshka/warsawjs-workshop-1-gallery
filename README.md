@@ -1,4 +1,4 @@
-# warsawjs-workshop-gallery
+# warsawjs-workshop-1-gallery
 
 > Testowa aplikacja stworzona na potrzeby WarsawJS Workshop #1
 
