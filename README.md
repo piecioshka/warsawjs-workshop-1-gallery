@@ -1,8 +1,8 @@
 # warsawjs-workshop-1-gallery
 
-> Testowa aplikacja stworzona na potrzeby WarsawJS Workshop #1
+Testowa aplikacja stworzona na potrzeby WarsawJS Workshop #1
 
-![](http://warsawjs.com/assets/images/logo/logo-transparent-240x240.png)
+![](images/logo-warsawjs-transparent-240x240.png)
 
 ## Założenia projektu
 
@@ -133,7 +133,7 @@ i dodać je do strony, pamiętając o wyrzuceniu wszystkiego co było wcześniej
 
 ## Znaki specjalne
 
-http://character-code.com/arrows-html-codes.php
+<http://character-code.com/arrows-html-codes.php>
 
 Opcje które wchodzą w grę jako strzałki (ikonki):
 
