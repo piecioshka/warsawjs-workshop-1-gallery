@@ -1,8 +1,12 @@
 # warsawjs-workshop-1-gallery
 
-Testowa aplikacja stworzona na potrzeby WarsawJS Workshop #1
+Testowa aplikacja stworzona na potrzeby `WarsawJS Workshop #1`
 
-![](images/logo-warsawjs-transparent-240x240.png)
+<img
+    src="https://warsawjs.com/static/images/logos/logo-warsawjs.svg"
+    width="400"
+    alt="WarsawJS"
+/>
 
 ## Założenia projektu
 
@@ -23,7 +27,7 @@ Testowa aplikacja stworzona na potrzeby WarsawJS Workshop #1
         * wpisanie tytułu strony (`<html>` -> `<head>` -> `<title>`)
         * wpisanie w pliku kilku słów (`<html>` -> `<body>` -> `<p>`)
         * reset domyślnego marginesu w `body`
-    - `styles/main.css` - definicja wyglądu strony w formacie CSS 
+    - `styles/main.css` - definicja wyglądu strony w formacie CSS
         * pokolorowanie tła i tekstu
     - `scripts/main.js` - definicja działania aplikacji w JavaScript
         * wyświetlenie dowolnego tekstu w narzędziach developerskich
@@ -45,7 +49,7 @@ Testowa aplikacja stworzona na potrzeby WarsawJS Workshop #1
 * Nasłuchiwanie na kliknięcie w zdjęcie
 * Zablokowanie domyślną akcję kliknięcia w link
 * Wyświetlenie większego zdjęcia pod listą poprzez stworzenie obiekt zdjęcia
-i dodać je do strony, pamiętając o wyrzuceniu wszystkiego co było wcześniej.
+    i dodać je do strony, pamiętając o wyrzuceniu wszystkiego co było wcześniej.
 
 ### Etap 3: Magnifier :mag:
 
@@ -53,7 +57,7 @@ i dodać je do strony, pamiętając o wyrzuceniu wszystkiego co było wcześniej
 * Dodanie wsparcia skrótów klawiaturowych (LEFT, RIGHT, ESCAPE)
 * Zapętlenie przewijania listy zdjęć
 
-### Etap 4: GitHub :octocat: 
+### Etap 4: GitHub :octocat:
 
 * Założenie projektu na GitHubie
 * Stworzenie repozytorium w projekcie za pomocą GitHub Desktop
