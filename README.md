@@ -14,11 +14,23 @@ Testowa aplikacja stworzona na potrzeby `WarsawJS Workshop #1`
 * Liczba zdjęć jest nieograniczona
 * Prezentacja list miniaturek oraz 1 zdjęcia powiększonego
 
-## Features
+## Features (v1)
 
 * Prezentacja listy zdjęć
 * Powiększenie zdjęcia po wybraniu miniaturki
 * Możliwość przełączania powiększonych zdjęć za pomocą klawiatury
+
+## Features (v3)
+
+* Korzystamy z namespace-ów, klas, bibliotek
+    + `super-event-emitter` @ <https://unpkg.com/>
+    + `eslint` @ <https://npmjs.com>
+    + `webpack` @ <https://npmjs.com>
+* Moduły w JavaScript: ESM, CommonJS
+* Promise + async/await
+* Fetch API
+* Debugger Statement
+* (Opcjonalnie) JSON Schema + Faker + Chance.js
 
 ## Etapy
 
