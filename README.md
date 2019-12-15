@@ -10,9 +10,15 @@ Testowa aplikacja stworzona na potrzeby `WarsawJS Workshop #1`
 
 ## Założenia projektu
 
-* obrazki tego samego rozmiaru
-* liczba zdjęć jest nieograniczona
-* prezentacja list miniaturek oraz 1 zdjęcia powiększonego
+* Obrazki tego samego rozmiaru
+* Liczba zdjęć jest nieograniczona
+* Prezentacja list miniaturek oraz 1 zdjęcia powiększonego
+
+## Features
+
+* Prezentacja listy zdjęć
+* Powiększenie zdjęcia po wybraniu miniaturki
+* Możliwość przełączania powiększonych zdjęć za pomocą klawiatury
 
 ## Etapy
 
