@@ -61,25 +61,29 @@ Testowa aplikacja stworzona na potrzeby `WarsawJS Workshop #1`
     + CSS: likwidując domyślny styl listy pionowej
     + CSS: Zmiana trybu wyświetlania listy z pionowej na poziomą
 
-### Etap 2 — Display singe zoom photo &#x1F3C3;
+### Etap 2 — Display list of photos &#x1F3C3;
 
 * JS: Stworzenie kolekcji linków
     + do zdjęć w rozdzielczości ok. 200x150
     + do zdjęć w rozdzielczości ok. 600x400
+* JS: Renderowanie listy po załadowaniu DOMa
+
+### Etap 3 — Magnifier :mag:
+
 * HTML: Stworzenie kontenera gdzie będzie wyświetlane zdjęcie w powiększeniu
 * JS: Nasłuchiwanie na kliknięcie w zdjęcie
 * JS: Zablokowanie domyślną akcję kliknięcia w link
 * JS: Wyświetlenie większego zdjęcia pod listą
-    + poprzez stworzenie obiekt zdjęcia
-    + dodać je do strony, pamiętając o wyrzuceniu wszystkiego co było wcześniej.
+    + Usunąć wszystko co było wcześniej
+    + Stworzyć obiekt dużego zdjęcia
 
-### Etap 3 — Magnifier :mag:
+### Etap 4 — Magnifier :mag:
 
 * JS: Dodać wsparcie skrótów klawiaturowych (LEFT, RIGHT, ESCAPE)
 * JS: Zapętlenie przewijania listy zdjęć
 * (Opcjonalne) CSS: Zmiana kontenera wyświetlania na overlay
 
-### Etap 4 — GitHub :octocat:
+### Etap 5 — GitHub :octocat:
 
 * Założenie projektu na GitHubie
 * Stworzenie repozytorium
