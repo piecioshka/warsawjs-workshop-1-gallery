@@ -77,7 +77,7 @@ Testowa aplikacja stworzona na potrzeby `WarsawJS Workshop #1`
     + Usunąć wszystko co było wcześniej
     + Stworzyć obiekt dużego zdjęcia
 
-### Etap 4 — Magnifier :mag:
+### Etap 4 — Keyboard :keyboard:
 
 * JS: Dodać wsparcie skrótów klawiaturowych (LEFT, RIGHT, ESCAPE)
 * JS: Zapętlenie przewijania listy zdjęć
