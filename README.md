@@ -34,9 +34,9 @@ Testowa aplikacja stworzona na potrzeby `WarsawJS Workshop #1`
 
 ## Krok po kroku 👣
 
-### Etap 1: Scaffold :file_folder:
+### Etap 1 — Scaffold :file_folder:
 
-* Stworzenie katalogu na projekt np. `test-project-1`
+* Stworzenie katalogu na projekt np. `warsawjs-workshop-1-gallery`
 * Stworzenie w katalogu stworzonym w poprzednim punkcie plików:
     + `index.html` - struktura dokumentu w formacie HTML
         - określenie typu pliku
@@ -61,7 +61,7 @@ Testowa aplikacja stworzona na potrzeby `WarsawJS Workshop #1`
     + likwidując domyślny styl listy pionowej
 * Zmiana trybu wyświetlania listy z pionowej na poziomą
 
-### Etap 2: Display singe zoom photo &#x1F3C3;
+### Etap 2 — Display singe zoom photo &#x1F3C3;
 
 * Stworzenie linków do zdjęć w rozdzielczości ok. 600x400
 * Stworzenie kontenera gdzie będzie wyświetlane zdjęcie w powiększeniu
@@ -70,13 +70,13 @@ Testowa aplikacja stworzona na potrzeby `WarsawJS Workshop #1`
 * Wyświetlenie większego zdjęcia pod listą poprzez stworzenie obiekt zdjęcia
     i dodać je do strony, pamiętając o wyrzuceniu wszystkiego co było wcześniej.
 
-### Etap 3: Magnifier :mag:
+### Etap 3 — Magnifier :mag:
 
 * Zmiana kontenera wyświetlania na overlay
 * Dodanie wsparcia skrótów klawiaturowych (LEFT, RIGHT, ESCAPE)
 * Zapętlenie przewijania listy zdjęć
 
-### Etap 4: GitHub :octocat:
+### Etap 4 — GitHub :octocat:
 
 * Założenie projektu na GitHubie
 * Stworzenie repozytorium
