@@ -49,32 +49,35 @@ Testowa aplikacja stworzona na potrzeby `WarsawJS Workshop #1`
         - pokolorowanie tła i tekstu
     + `scripts/main.js` - definicja działania aplikacji w JavaScript
         - wyświetlenie dowolnego tekstu w narzędziach developerskich
-* Dołączenie plików CSS i JavaScript do pliku HTML.
+* HTML: Dołączenie pliku `main.css` oraz `main.js`
 * Dodanie customowego fontu
     + Wykorzystać <http://fonts.google.com/>
+    + CSS: Ustawić `font-family` dla elementu `body`
 * Dodanie nagłówka i stopki
-    + tworząc nowe kontenery (`header` & `footer`)
-    + posiłkując się dowolną paletą kolorystyczną
-    + oddzielając w pliku CSS komentarze 3 sekcje: `header, main, footer`
+    + Wykorzystać `<header>` & `<footer>`)
+    + CSS: Ustawić dowolne kolory tła i fontu
 * Wyświetlenie pionowej listy miniaturek
-    + wykorzystując dowolny place holder
-    + likwidując domyślny styl listy pionowej
-* Zmiana trybu wyświetlania listy z pionowej na poziomą
+    + Wykorzystać <https://picsum.photos>
+    + CSS: likwidując domyślny styl listy pionowej
+    + CSS: Zmiana trybu wyświetlania listy z pionowej na poziomą
 
 ### Etap 2 — Display singe zoom photo &#x1F3C3;
 
-* Stworzenie linków do zdjęć w rozdzielczości ok. 600x400
-* Stworzenie kontenera gdzie będzie wyświetlane zdjęcie w powiększeniu
-* Nasłuchiwanie na kliknięcie w zdjęcie
-* Zablokowanie domyślną akcję kliknięcia w link
-* Wyświetlenie większego zdjęcia pod listą poprzez stworzenie obiekt zdjęcia
-    i dodać je do strony, pamiętając o wyrzuceniu wszystkiego co było wcześniej.
+* JS: Stworzenie kolekcji linków
+    + do zdjęć w rozdzielczości ok. 200x150
+    + do zdjęć w rozdzielczości ok. 600x400
+* HTML: Stworzenie kontenera gdzie będzie wyświetlane zdjęcie w powiększeniu
+* JS: Nasłuchiwanie na kliknięcie w zdjęcie
+* JS: Zablokowanie domyślną akcję kliknięcia w link
+* JS: Wyświetlenie większego zdjęcia pod listą
+    + poprzez stworzenie obiekt zdjęcia
+    + dodać je do strony, pamiętając o wyrzuceniu wszystkiego co było wcześniej.
 
 ### Etap 3 — Magnifier :mag:
 
-* Zmiana kontenera wyświetlania na overlay
-* Dodanie wsparcia skrótów klawiaturowych (LEFT, RIGHT, ESCAPE)
-* Zapętlenie przewijania listy zdjęć
+* JS: Dodanie wsparcia skrótów klawiaturowych (LEFT, RIGHT, ESCAPE)
+* JS: Zapętlenie przewijania listy zdjęć
+* (Opcjonalne) CSS: Zmiana kontenera wyświetlania na overlay
 
 ### Etap 4 — GitHub :octocat:
 
@@ -89,9 +92,9 @@ Testowa aplikacja stworzona na potrzeby `WarsawJS Workshop #1`
 
 ## Bonus
 
-* Wsparcie różnych rozmiarów obrazków
-* Skalowanie zdjęcia przy zmniejszaniu okna przeglądarki
-* Responsywność (mobile)
+* JS: Wsparcie różnych rozmiarów obrazków
+* CSS: Skalowanie zdjęcia przy zmniejszaniu okna przeglądarki
+* CSS: Responsywność (Media Queries)
 
 ## Czego nauczą się uczestnicy podczas realizacji tego zadania?
 
