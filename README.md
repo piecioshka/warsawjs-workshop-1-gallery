@@ -39,22 +39,22 @@ Testowa aplikacja stworzona na potrzeby `WarsawJS Workshop #1`
 * Stworzenie katalogu na projekt np. `warsawjs-workshop-1-gallery`
 * Stworzenie w katalogu stworzonym w poprzednim punkcie plików:
     + `index.html` - struktura dokumentu w formacie HTML
-        - określenie typu pliku
-        - zbudowanie podstawowej struktury (`<html>, <head>, <body>`)
-        - określenie kodowania dokumentu (`<html>` -> `<head>` -> `<meta>`)
-        - wpisanie tytułu strony (`<html>` -> `<head>` -> `<title>`)
-        - wpisanie w pliku kilku słów (`<html>` -> `<body>` -> `<p>`)
-        - reset domyślnego marginesu w `body`
+        - HTML: Określić typu dokumentu
+        - HTML: Zbudować podstawową strukturą `!<TAB>`
+        - HTML: Określić kodowanie dokumentu `<meta charset="utf-8>`
+        - HTML: Ustawić tytuł strony `<title>...</title>`
+        - HTML: Wpisać dowolne słowa w `<body>` (wykorzystać `<p>`)
     + `styles/main.css` - definicja wyglądu strony w formacie CSS
         - pokolorowanie tła i tekstu
+        - CSS: Zresetować domyślny margines w `body`
     + `scripts/main.js` - definicja działania aplikacji w JavaScript
         - wyświetlenie dowolnego tekstu w narzędziach developerskich
-* HTML: Dołączenie pliku `main.css` oraz `main.js`
-* Dodanie customowego fontu
+        - JS: Stworzyć funkcję `main` i uruchomić ją po załadowaniu DOMa
+* HTML: Dołączyć pliki `main.css` oraz `main.js`
+* Dodać customowy font
     + Wykorzystać <http://fonts.google.com/>
     + CSS: Ustawić `font-family` dla elementu `body`
-* Dodanie nagłówka i stopki
-    + Wykorzystać `<header>` & `<footer>`)
+* Dodać nagłówek i stopkę `<header>` oraz `<footer>`
     + CSS: Ustawić dowolne kolory tła i fontu
 * Wyświetlenie pionowej listy miniaturek
     + Wykorzystać <https://picsum.photos>
@@ -75,7 +75,7 @@ Testowa aplikacja stworzona na potrzeby `WarsawJS Workshop #1`
 
 ### Etap 3 — Magnifier :mag:
 
-* JS: Dodanie wsparcia skrótów klawiaturowych (LEFT, RIGHT, ESCAPE)
+* JS: Dodać wsparcie skrótów klawiaturowych (LEFT, RIGHT, ESCAPE)
 * JS: Zapętlenie przewijania listy zdjęć
 * (Opcjonalne) CSS: Zmiana kontenera wyświetlania na overlay
 
@@ -86,7 +86,7 @@ Testowa aplikacja stworzona na potrzeby `WarsawJS Workshop #1`
     + za pomocą terminala
     + za pomocą GitHub Desktop
 * (Opcjonalne) Wrzucenie projektu na serwer za pomocą GitHub Desktop
-* Dodanie przekierowania do repozytorium
+* Dodać przekierowania do repozytorium
     + GitHub Ribbons — <https://github.com/blog/273-github-ribbons>
     + GitHub Corner — <http://tholman.com/github-corners/>
 
