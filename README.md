@@ -27,7 +27,7 @@ Testowa aplikacja stworzona na potrzeby `WarsawJS Workshop #1`
     + `eslint` @ <https://npmjs.com>
     + `webpack` @ <https://npmjs.com>
 * Moduły w JavaScript: ESM, CommonJS
-* Promise + async/await
+* Promise + Async / await
 * Fetch API
 * Debugger Statement
 * (Opcjonalnie) JSON Schema + Faker + Chance.js
@@ -51,12 +51,12 @@ Testowa aplikacja stworzona na potrzeby `WarsawJS Workshop #1`
         - wyświetlenie dowolnego tekstu w narzędziach developerskich
         - JS: Stworzyć funkcję `main` i uruchomić ją po załadowaniu DOMa
 * HTML: Dołączyć pliki `main.css` oraz `main.js`
-* Dodać customowy font
+* HTML: Dodać customowy font
     + Wykorzystać <http://fonts.google.com/>
     + CSS: Ustawić `font-family` dla elementu `body`
-* Dodać nagłówek i stopkę `<header>` oraz `<footer>`
+* HTML: Dodać nagłówek i stopkę `<header>` oraz `<footer>`
     + CSS: Ustawić dowolne kolory tła i fontu
-* Wyświetlenie pionowej listy miniaturek
+* HTML: Wyświetlenie pionowej listy miniaturek
     + Wykorzystać <https://picsum.photos>
     + CSS: likwidując domyślny styl listy pionowej
     + CSS: Zmiana trybu wyświetlania listy z pionowej na poziomą
@@ -64,33 +64,32 @@ Testowa aplikacja stworzona na potrzeby `WarsawJS Workshop #1`
 ### Etap 2 — Display list of photos &#x1F3C3;
 
 * JS: Stworzenie kolekcji linków
-    + do zdjęć w rozdzielczości ok. 200x150
-    + do zdjęć w rozdzielczości ok. 600x400
-* JS: Renderowanie listy po załadowaniu DOMa
+    + miniaturek — do zdjęć w rozdzielczości ok. 200x150
+    + regularnych obrazków — do zdjęć w rozdzielczości ok. 600x400
+* JS: Renderowanie listy miniaturek po załadowaniu DOMa
 
 ### Etap 3 — Magnifier :mag:
 
-* HTML: Stworzenie kontenera gdzie będzie wyświetlane zdjęcie w powiększeniu
-* JS: Nasłuchiwanie na kliknięcie w zdjęcie
-* JS: Zablokowanie domyślną akcję kliknięcia w link
-* JS: Wyświetlenie większego zdjęcia pod listą
-    + Usunąć wszystko co było wcześniej
-    + Stworzyć obiekt dużego zdjęcia
+* HTML: Stworzenie kontenera, gdzie będzie wyświetlane zdjęcie w powiększeniu
+* JS: Nasłuchiwanie na kliknięcie użytkownika
+* JS: Wyświetlenie większego zdjęcia pod listą miniaturek
+    + Wyczyścić kontener
+    + Stworzyć obiekt dużego zdjęcia i wyrenderować
 
 ### Etap 4 — Keyboard :keyboard:
 
-* JS: Dodać wsparcie skrótów klawiaturowych (LEFT, RIGHT, ESCAPE)
+* JS: Dodać wsparcie skrótów klawiaturowych (LEFT, RIGHT)
 * JS: Zapętlenie przewijania listy zdjęć
+    + Wykorzystać "If Statement" albo operator modulo
 * (Opcjonalne) CSS: Zmiana kontenera wyświetlania na overlay
 
 ### Etap 5 — GitHub :octocat:
 
-* Założenie projektu na GitHubie
-* Stworzenie repozytorium
-    + za pomocą terminala
-    + za pomocą GitHub Desktop
-* (Opcjonalne) Wrzucenie projektu na serwer za pomocą GitHub Desktop
-* Dodać przekierowania do repozytorium
+* Stworzyć projekt na GitHubie
+* Stworzyć repozytorium lokalne za pomocą terminala
+    + Powiązać lokalne repozytorium ze zdalnym
+* Wrzucić projekt na GitHub
+* HTML: Dodać link na stronie do repozytorium z kodem źródłowym
     + GitHub Ribbons — <https://github.com/blog/273-github-ribbons>
     + GitHub Corner — <http://tholman.com/github-corners/>
 
@@ -100,7 +99,7 @@ Testowa aplikacja stworzona na potrzeby `WarsawJS Workshop #1`
 * CSS: Skalowanie zdjęcia przy zmniejszaniu okna przeglądarki
 * CSS: Responsywność (Media Queries)
 
-## Czego nauczą się uczestnicy podczas realizacji tego zadania?
+## Czego można się nauczyć podczas realizacji tego zadania?
 
 <details><summary>HTML</summary>
 
@@ -120,9 +119,9 @@ Testowa aplikacja stworzona na potrzeby `WarsawJS Workshop #1`
 * Jak ustawić typ pliku
 * Jak dodać link do dokumentu HTML
 * Korzystania z serwisów zewnętrznych do pobierania obrazków
-* Jak dołączyć ładny font ze strony http://fonts.google.com
+* Jak dołączyć ładny font ze strony <http://fonts.google.com>
 * Definiowania atrybutów
-* Dodawania GitHub Ribbon: https://github.com/blog/273-github-ribbons
+* Dodawania GitHub Ribbon: <https://github.com/blog/273-github-ribbons>
 * Kolejności w definiowaniu elementów ma znaczenie
 * Jak zdefiniować alternatywny tekst, gdy obrazek nie załaduje się
 * Jak dodaje się komentarze w HTMLu
@@ -131,7 +130,7 @@ Testowa aplikacja stworzona na potrzeby `WarsawJS Workshop #1`
 
 <details><summary>CSS</summary>
 
-* Resetowanie domyślnych styli przeglądarek (`body margin`)
+* Resetowanie domyślnych styli przeglądarek (`margin` dla `body`)
 * Jak wybrać kolor z listy predefiniowanych w CSS
 * Jak się definiuje kolory w składni RGB oraz RGBA
 * Selektorów razem z specificity
@@ -166,7 +165,7 @@ Testowa aplikacja stworzona na potrzeby `WarsawJS Workshop #1`
 * Wzorzec: dependency injection
 * Jak zarządzać klasami CSS elementów DOMa
 * Metody prywatne
-* instrukcje `if` oraz `switch`
+* Instrukcje `if` oraz `switch`
 * Jak dodaje się komentarze w JavaScript
 
 </details>
