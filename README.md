@@ -32,32 +32,33 @@ Testowa aplikacja stworzona na potrzeby `WarsawJS Workshop #1`
 * Debugger Statement
 * (Opcjonalnie) JSON Schema + Faker + Chance.js
 
-## Etapy
+## Krok po kroku 👣
 
 ### Etap 1: Scaffold :file_folder:
 
 * Stworzenie katalogu na projekt np. `test-project-1`
 * Stworzenie w katalogu stworzonym w poprzednim punkcie plików:
-    - `index.html` - struktura dokumentu w formacie HTML
-        * określenie typu pliku
-        * zbudowanie podstawowej struktury (`<html>, <head>, <body>`)
-        * określenie kodowania dokumentu (`<html>` -> `<head>` -> `<meta>`)
-        * wpisanie tytułu strony (`<html>` -> `<head>` -> `<title>`)
-        * wpisanie w pliku kilku słów (`<html>` -> `<body>` -> `<p>`)
-        * reset domyślnego marginesu w `body`
-    - `styles/main.css` - definicja wyglądu strony w formacie CSS
-        * pokolorowanie tła i tekstu
-    - `scripts/main.js` - definicja działania aplikacji w JavaScript
-        * wyświetlenie dowolnego tekstu w narzędziach developerskich
+    + `index.html` - struktura dokumentu w formacie HTML
+        - określenie typu pliku
+        - zbudowanie podstawowej struktury (`<html>, <head>, <body>`)
+        - określenie kodowania dokumentu (`<html>` -> `<head>` -> `<meta>`)
+        - wpisanie tytułu strony (`<html>` -> `<head>` -> `<title>`)
+        - wpisanie w pliku kilku słów (`<html>` -> `<body>` -> `<p>`)
+        - reset domyślnego marginesu w `body`
+    + `styles/main.css` - definicja wyglądu strony w formacie CSS
+        - pokolorowanie tła i tekstu
+    + `scripts/main.js` - definicja działania aplikacji w JavaScript
+        - wyświetlenie dowolnego tekstu w narzędziach developerskich
 * Dołączenie plików CSS i JavaScript do pliku HTML.
-* Załączenie customowego fontu korzystając z http://fonts.google.com/
+* Dodanie customowego fontu
+    + Wykorzystać <http://fonts.google.com/>
 * Dodanie nagłówka i stopki
-    - tworząc nowe kontenery (`header` & `footer`)
-    - posiłkując się dowolną paletą kolorystyczną
-    - oddzielając w pliku CSS komentarze 3 sekcje: `header, main, footer`
+    + tworząc nowe kontenery (`header` & `footer`)
+    + posiłkując się dowolną paletą kolorystyczną
+    + oddzielając w pliku CSS komentarze 3 sekcje: `header, main, footer`
 * Wyświetlenie pionowej listy miniaturek
-    - wykorzystując dowolny place holder
-    - likwidując domyślny styl listy pionowej
+    + wykorzystując dowolny place holder
+    + likwidując domyślny styl listy pionowej
 * Zmiana trybu wyświetlania listy z pionowej na poziomą
 
 ### Etap 2: Display singe zoom photo &#x1F3C3;
@@ -78,11 +79,15 @@ Testowa aplikacja stworzona na potrzeby `WarsawJS Workshop #1`
 ### Etap 4: GitHub :octocat:
 
 * Założenie projektu na GitHubie
-* Stworzenie repozytorium w projekcie za pomocą GitHub Desktop
-* Wrzucenie projektu na serwer za pomocą GitHub Desktop
-* Dodanie GitHub Ribbons
+* Stworzenie repozytorium
+    + za pomocą terminala
+    + za pomocą GitHub Desktop
+* (Opcjonalne) Wrzucenie projektu na serwer za pomocą GitHub Desktop
+* Dodanie przekierowania do repozytorium
+    + GitHub Ribbons — <https://github.com/blog/273-github-ribbons>
+    + GitHub Corner — <http://tholman.com/github-corners/>
 
-## Zadania dodatkowe?
+## Bonus
 
 * Wsparcie różnych rozmiarów obrazków
 * Skalowanie zdjęcia przy zmniejszaniu okna przeglądarki
@@ -90,68 +95,82 @@ Testowa aplikacja stworzona na potrzeby `WarsawJS Workshop #1`
 
 ## Czego nauczą się uczestnicy podczas realizacji tego zadania?
 
-### HTML
+<details><summary>HTML</summary>
 
-* dlaczego nazwa pliku `index.html` jest taka specjalna
-* definicji dokumentu HTML
-* jak załączyć plik CSS oraz JavaScript
-* jak zmienić tytuł strony
-* jak wprowadzić podział w strukturze projektu na 3 warstwy
-* znaczenia znaczników: `html, head, body, title, meta, link, script, div, header, h1, ul, li, a, img, main, footer, p`
-* jak ustawić kodowanie dokumentu
-* jak ustawić typ pliku
-* jak dodać link do dokumentu HTML
-* korzystania z serwisów zewnętrznych do pobierania obrazków
-* jak dołączyć ładny font ze strony http://fonts.google.com
-* definiowania atrybutów
-* dodawania GitHub Ribbon: https://github.com/blog/273-github-ribbons
-* kolejności w definiowaniu elementów ma znaczenie
-* jak zdefiniować alternatywny tekst, gdy obrazek nie załaduje się
-* jak dodaje się komentarze w HTMLu
+* Dlaczego nazwa pliku `index.html` jest taka specjalna
+* Definicji dokumentu HTML
+* Jak załączyć plik CSS oraz JavaScript
+* Jak zmienić tytuł strony
+* Jak wprowadzić podział w strukturze projektu na 3 warstwy
+* Znaczenia znaczników
 
-### CSS
+    ```text
+    html, head, body, title, meta, link, script, div, header,
+    h1, ul, li, a, img, main, footer, p
+    ```
 
-* resetowanie domyślnych styli przeglądarek (`body margin`)
-* jak wybrać kolor z listy predefiniowanych w CSS
-* jak się definiuje kolory w składni RGB oraz RGBA
-* selektorów razem z specificity
-* funkcji `calc()`
-* co to jest pseudo-klasa `:hover`
-* pozycjonowanie
-* określanie marginesów i paddingów
-* typografia - zabawa z fontem
-* tworzenie listy horyzontalnej
-* określanie wymiarów kontenera
-* obcinanie elementów wystających za kontener (`overflow`)
-* dodawania obramowania do kontenerów
-* centrowanie kontenerów i tekstu
-* jak zmienić domyślny kursor myszy
-* jak dodaje się komentarze w CSS
+* Jak ustawić kodowanie dokumentu
+* Jak ustawić typ pliku
+* Jak dodać link do dokumentu HTML
+* Korzystania z serwisów zewnętrznych do pobierania obrazków
+* Jak dołączyć ładny font ze strony http://fonts.google.com
+* Definiowania atrybutów
+* Dodawania GitHub Ribbon: https://github.com/blog/273-github-ribbons
+* Kolejności w definiowaniu elementów ma znaczenie
+* Jak zdefiniować alternatywny tekst, gdy obrazek nie załaduje się
+* Jak dodaje się komentarze w HTMLu
 
-### JavaScript
+</details>
 
-* definiowanie zmiennych, funkcji, klas, stałych
-* czym jest konstruktor
-* stworzenie obiektu za pomocą operatora `new`
-* co to jest DOM
-* jak tworzy się metody
-* dowiesz się co to jest API
-* jak poczekać na załadowanie DOMa
-* co to są parametry vs. argumenty
-* jak nasłuchiwać na zdarzenia UI
-* jak wspierać skróty klawiszowe
-* jak dowiedzieć się w co user kliknął
-* wzorzec: dependency injection
-* jak zarządzać klasami CSS elementów DOMa
-* metody prywatne
+<details><summary>CSS</summary>
+
+* Resetowanie domyślnych styli przeglądarek (`body margin`)
+* Jak wybrać kolor z listy predefiniowanych w CSS
+* Jak się definiuje kolory w składni RGB oraz RGBA
+* Selektorów razem z specificity
+* Funkcji `calc()`
+* Co to jest pseudo-klasa `:hover`
+* Pozycjonowanie
+* Określanie marginesów i paddingów
+* Typografia - zabawa z fontem
+* Tworzenie listy horyzontalnej
+* Określanie wymiarów kontenera
+* Obcinanie elementów wystających za kontener (`overflow`)
+* Dodawania obramowania do kontenerów
+* Centrowanie kontenerów i tekstu
+* Jak zmienić domyślny kursor myszy
+* Jak dodaje się komentarze w CSS
+
+</details>
+
+<details><summary>JavaScript</summary>
+
+* Definiowanie zmiennych, funkcji, klas, stałych
+* Czym jest konstruktor
+* Stworzenie obiektu za pomocą operatora `new`
+* Co to jest DOM
+* Jak tworzy się metody
+* Dowiesz się co to jest API
+* Jak poczekać na załadowanie DOMa
+* Co to są parametry vs. argumenty
+* Jak nasłuchiwać na zdarzenia UI
+* Jak wspierać skróty klawiszowe
+* Jak dowiedzieć się w co user kliknął
+* Wzorzec: dependency injection
+* Jak zarządzać klasami CSS elementów DOMa
+* Metody prywatne
 * instrukcje `if` oraz `switch`
-* jak dodaje się komentarze w JavaScript
+* Jak dodaje się komentarze w JavaScript
 
-### Google Chrome Developer Tools
+</details>
 
-* czym są oraz w czym pomagają
-* jak "zbadać" element
-* debugowanie za pomocą metody `console.log` oraz wyrażenia `debugger`
+<details><summary>Google Chrome Developer Tools</summary>
+
+* Czym są oraz w czym pomagają
+* Jak "zbadać" element
+* Debugowanie za pomocą metody `console.log` oraz wyrażenia `debugger`
+
+</details>
 
 ## Znaki specjalne
 
@@ -159,6 +178,6 @@ Testowa aplikacja stworzona na potrzeby `WarsawJS Workshop #1`
 
 Opcje które wchodzą w grę jako strzałki (ikonki):
 
-* w lewo: &#x276c; &#x276e; &#x2770;
-* w prawo: &#x276d; &#x276f; &#x2771;
-* zamknięcie: &#xD7;
+* W lewo: &#x276c; &#x276e; &#x2770;
+* W prawo: &#x276d; &#x276f; &#x2771;
+* Zamknięcie: &#xD7;

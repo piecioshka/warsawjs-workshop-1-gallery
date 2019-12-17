@@ -27,7 +27,9 @@
     },
     "MD033": {
         "allowed_elements": [
-            "img"
+            "img",
+            "details",
+            "summary"
         ]
     }
 }
