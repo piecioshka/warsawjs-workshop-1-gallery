@@ -1,6 +1,6 @@
 # warsawjs-workshop-1-gallery
 
-⛩️ WarsawJS Workshop #1 — JavaScript (Beginner Level) — Gallery (3 versions)
+⛩️ WarsawJS Workshop #1 — JavaScript (Beginner Level)
 
 ## Założenia projektu
 
