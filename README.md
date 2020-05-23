@@ -1,12 +1,6 @@
 # warsawjs-workshop-1-gallery
 
-Testowa aplikacja stworzona na potrzeby `WarsawJS Workshop #1`
-
-<img
-    src="https://warsawjs.com/static/images/logos/logo-warsawjs.svg"
-    width="400"
-    alt="WarsawJS"
-/>
+⛩️ WarsawJS Workshop #1 — JavaScript (Beginner Level) — Gallery (3 versions)
 
 ## Założenia projektu
 
