@@ -19,7 +19,7 @@
                 photo.render();
 
                 photo.on('click', () => {
-                    this.trigger('click:thumb', { image });
+                    this.emit('click:thumb', { image });
                 });
             });
         }

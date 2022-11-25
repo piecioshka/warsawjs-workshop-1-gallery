@@ -14,7 +14,7 @@
             $el.setAttribute('src', this.url);
 
             $el.addEventListener('click', () => {
-                this.trigger('click');
+                this.emit('click');
             });
 
             const $app = document.querySelector('#app');
