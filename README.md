@@ -181,3 +181,7 @@ Opcje które wchodzą w grę jako strzałki (ikonki):
 * W lewo: &#x276c; &#x276e; &#x2770;
 * W prawo: &#x276d; &#x276f; &#x2771;
 * Zamknięcie: &#xD7;
+
+## License
+
+[The MIT License](http://piecioshka.mit-license.org) @ 2026
